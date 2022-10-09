@@ -51,7 +51,7 @@ export default class Spotify {
     const res = await this.getNewToken();
     const resData = res.data;
 
-    // Spotify tokens expire after 1 hour, so we set the expiry to 1 hour less than the actual expiry time.
+    // Spotify tokens expire after 1 hour. We convert the expiry time to milliseconds and take 300000ms off to account for any latency.
     const created = Date.now();
     const token = {
       token: resData.access_token,
