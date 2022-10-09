@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcel Boilerplate</title>
+    <title>Spotify player</title>
     <link rel="stylesheet" href="scss/index.scss" />
   </head>
 
   <body>
-    <nav class="c-nav"></nav>
     <main class="c-home">
-      <h1>Hello Static</h1>
+      <h1 class="c-home__title">Now Playing</h1>
+      <div class="c-home__cover" data-cover></div>
+      <div class="c-home__playing">
+        <a href="/" data-title></a>
+        <span>—</span>
+        <div data-artist></div>
+      </div>
     </main>
-    <footer class="c-footer"></footer>
 
     <script src="js/index.js" type="module"></script>
   </body>

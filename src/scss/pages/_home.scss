@@ -1,2 +1,34 @@
 .c-home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    @extend %title-2;
+    margin-bottom: 24px;
+  }
+
+  &__cover {
+    max-width: 240px;
+    width: 100%;
+    @include ratio(1, 1);
+    margin-bottom: 16px;
+  }
+
+  &__playing {
+    display: flex;
+
+    a {
+      @extend %link;
+      font-size: 14px;
+    }
+
+    a,
+    span {
+      margin-right: 4px;
+    }
+  }
 }
