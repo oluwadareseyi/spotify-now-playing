@@ -29,10 +29,10 @@ Then, go to the [Airtable API page](https://airtable.com/api) and get your API k
 
 Create a .env file in the root of the project and add the following vars:
 
-SPOTIFY_CLIENT_ID - Your Spotify client ID
-SPOTIFY_CLIENT_SECRET - Your Spotify client secret
-SPOTIFY_REFRESH_TOKEN - Your Spotify refresh token
-AIRTABLE_API_KEY - Your Airtable API key
-AIRTABLE_BASE_ID - The base id of the airtable document you create
+- SPOTIFY_CLIENT_ID - Your Spotify client ID
+- SPOTIFY_CLIENT_SECRET - Your Spotify client secret
+- SPOTIFY_REFRESH_TOKEN - Your Spotify refresh token
+- AIRTABLE_API_KEY - Your Airtable API key
+- AIRTABLE_BASE_ID - The base id of the airtable document you create
 
 After this, run the app and you should be good to go.
