@@ -25,7 +25,12 @@ Create an airtable account and a table in airtable with the following fields:
 - expiry.
 - created.
 
-Then, go to the [Airtable API page](https://airtable.com/api) and get your API key and base id for the new table.
+<img width="1132" alt="image" src="https://user-images.githubusercontent.com/48622375/194784185-f79cf04c-b47b-4ede-9d7e-4b7c9cd04f63.png">
+
+
+Then, go to the [Airtable API page](https://airtable.com/api) and get your API key (check "show API key") and base id for the new table.
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/48622375/194784203-7b67196a-d92d-42ad-9142-afa060c54e66.png">
 
 Create a .env file in the root of the project and add the following vars:
 
