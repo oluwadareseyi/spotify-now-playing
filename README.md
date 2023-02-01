@@ -5,7 +5,7 @@
 - [Airtable](https://airtable.com/).
 - [Airtable API](https://airtable.com/api).
 - [Spotify Dashboard](https://developer.spotify.com/dashboard/applications).
-- [Spotify refresh token](https://alecchendev.medium.com/get-your-spotify-refresh-token-with-this-simple-web-app-d942dad05847)
+- [Spotify refresh token](https://benwiz.com/blog/create-spotify-refresh-token/)
 
 ## Spotify
 
@@ -13,7 +13,7 @@ To get a Spotify client id and secret, you need to log into your [Spotify Dashbo
 
 ## Spotify refresh token
 
-Spotify's token expires every hour, so you need to get a new one each time it expires. To do this, you need to get a refresh token. To learn how to get a refresh token, read [this article](https://alecchendev.medium.com/get-your-spotify-refresh-token-with-this-simple-web-app-d942dad05847).
+Spotify's token expires every hour, so you need to get a new one each time it expires. To do this, you need to get a refresh token. To learn how to get a refresh token, read [this article](https://benwiz.com/blog/create-spotify-refresh-token/).
 
 
 ## Airtable
