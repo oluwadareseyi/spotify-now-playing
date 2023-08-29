@@ -13,7 +13,7 @@ To get a Spotify client id and secret, you need to log into your [Spotify Dashbo
 
 ## Spotify refresh token
 
-Spotify's token expires every hour, so you need to get a new one each time it expires. To do this, you need to get a refresh token. To learn how to get a refresh token, read [this article](https://benwiz.com/blog/create-spotify-refresh-token/).
+Spotify's token expires every hour, so you need to get a new one each time it expires. To do this, you need to get a refresh token. To learn how to get a refresh token, read [this article](https://benwiz.com/blog/create-spotify-refresh-token/) or [this](https://reine.hashnode.dev/how-to-connect-your-react-vitejs-app-to-spotifys-api). You'll need **"user-read-currently-playing user-read-recently-played"** as your scope.
 
 
 ## Airtable
